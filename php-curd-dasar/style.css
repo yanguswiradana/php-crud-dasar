@@ -1,0 +1,90 @@
+/* Gaya untuk tabel data */
+table {
+   border-collapse: collapse;
+   width: 80%;
+   margin: 20px auto;
+}
+
+table, th, td {
+   border: 1px solid #ccc;
+}
+
+th, td {
+   padding: 10px;
+   text-align: left;
+}
+
+th {
+   background-color: #f2f2f2;
+}
+
+/* Gaya untuk formulir tambah dan edit */
+form {
+   width: 80%;
+   margin: 20px auto;
+   padding: 10px;
+   border: 1px solid #ccc;
+   background-color: #f9f9f9;
+}
+
+input[type="text"], input[type="email"] {
+   width: 100%;
+   padding: 5px;
+   margin: 5px 0;
+}
+
+button[type="submit"] {
+   padding: 5px 10px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+button[type="button"] {
+   padding: 5px 10px;
+   background-color: #ccc;
+   color: #000;
+   border: none;
+   cursor: pointer;
+   margin-left: 10px;
+}
+
+/* Gaya untuk judul */
+h1, h2 {
+   text-align: center;
+   margin: 20px 0;
+}
+
+/* Style for the Edit button */
+a.edit-button {
+   padding: 5px 10px;
+   background-color: #28a745;
+   color: #fff;
+   text-decoration: none;
+   border: none;
+   cursor: pointer;
+   margin-right: 5px;
+}
+
+/* Style for the Delete button */
+a.delete-button {
+   padding: 5px 10px;
+   background-color: #dc3545;
+   color: #fff;
+   text-decoration: none;
+   border: none;
+   cursor: pointer;
+   margin-right: 5px;
+}
+
+/* Style for the Tambah button */
+a.tambah-button {
+   padding: 5px 10px;
+   background-color: #007bff;
+   color: #fff;
+   text-decoration: none;
+   border: none;
+   cursor: pointer;
+   margin-right: 5px;
+}
